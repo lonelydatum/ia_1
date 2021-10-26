@@ -34,7 +34,7 @@ function init(){
 	const OUT = .3
 
 	// tl.from(".t1", IN, {opacity:0})
-	tl.to(".t1", OUT, {opacity:0}, "+=2")
+	tl.to(".t1", OUT, {opacity:0}, "+=2.3")
 
 	tl.from(".t2", IN, {opacity:0}, "+=.2")
 	tl.to(".t2", OUT, {opacity:0}, "+=2")
