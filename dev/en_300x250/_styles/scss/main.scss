@@ -1,0 +1,10 @@
+@import '../../../_common/styles/common.scss';
+
+
+.bg{
+	transform-origin: 50% 50%;
+	@include pos-scale(-221, -145, 0.85);
+	// @include pos-scale(-150, -125, 0.5);
+	// display: none;
+}
+
