@@ -60,7 +60,7 @@ tl.add("f3", "+=5.3");
 tl.to(".t2", .6, { opacity: 0 }, "f3");
 tl.from(".t4", .6, { opacity: 0 }, "f3");
 
-tl.from(".t3", .5, { opacity: 0 }, "+=.3");
+tl.from(".t3", .5, { opacity: 0 }, "+=.2");
 
 },{"../../_common/js/common.js":1}]},{},[2])
 
