@@ -173,11 +173,15 @@ sup {
   -webkit-perspective: 1000px;
   perspective: 1000px;
   position: absolute;
+  background-color: #003da5;
 }
 
 #banner {
   width: 320px;
   height: 50px;
+}
+
+.t4 {
   background-color: #003da5;
 }
 
