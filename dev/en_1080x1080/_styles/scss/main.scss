@@ -3,18 +3,14 @@
 
 .bg{
 	transform-origin: 50% 50%;
-	@include pos-scale(-221, -145, 0.85);
+	// @include pos-scale(-221, -145, 0.85);
+	@include pos-scale(-540, -540, .65);
 	// @include pos-scale(-150, -125, 0.5);
 	// display: none;
-	background-color: #003da5;
 }
 
 
 #banner{
-	width: 320px;
-	height: 50px;	
-}
-
-.t4{
-	background-color: #003da5;
+	width: 1080px;
+	height: 1080px;	
 }
