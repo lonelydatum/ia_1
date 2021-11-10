@@ -1,0 +1,19 @@
+@import '../../../_common/styles/common.scss';
+
+
+
+
+.bg{
+	transform-origin: 50% 50%;
+	
+	@include pos-scale(-160, -346, .65);
+	// @include pos-scale(-150, -125, 0.5);
+	// display: none;
+}
+
+
+
+#banner{
+	width: 300px;
+	height: 600px;
+}
