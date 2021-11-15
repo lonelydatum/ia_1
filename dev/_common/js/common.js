@@ -11,6 +11,50 @@ const {w, h} = size
 
 
 
+function init2(){
+	
+	const tl = new TimelineMax({onComplete:()=>{
+	
+	}})
+
+
+	tl.set(".frame1", {opacity:1})
+
+	TweenLite.defaultEase = Power2.easeOut
+
+	TweenLite.to(".bg", 13, {scale:.5, ease:Linear.easeNone, onComplete:()=>{
+		// alert("sldkfj")
+	}})
+
+	const IN = .5
+	const OUT = .3
+
+	// tl.from(".t1", IN, {opacity:0})
+	// tl.to(".t1", OUT, {opacity:0}, "+=2.3")
+
+	tl.from(".t2", IN, {opacity:0}, "+=1.2")
+	tl.to(".t2", OUT, {opacity:0}, "+=2")
+
+	tl.from(".t3", IN, {opacity:0})
+	tl.to(".t3", OUT, {opacity:0}, "+=2")
+
+	tl.from(".t4", IN, {opacity:0})
+
+	tl.add("done", "+=3.3")
+	tl.to(".t4", OUT, {opacity:0}, "done")
+	tl.to(".t1", IN, {opacity:0}, "done")
+	tl.from(".t5", IN, {opacity:0})
+
+	
+
+	
+
+	
+
+	return tl
+}
+
+
 
 
 
@@ -57,4 +101,4 @@ function init(){
 
 
 
-export {size, init}
+export {size, init, init2}
